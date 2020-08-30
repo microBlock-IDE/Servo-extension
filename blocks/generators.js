@@ -4,6 +4,6 @@ Blockly.Python['servo'] = function(block) {
 
   var value_pin = Blockly.Python.valueToCode(block, 'pin', Blockly.Python.ORDER_ATOMIC);
   var value_angle = Blockly.Python.valueToCode(block, 'angle', Blockly.Python.ORDER_ATOMIC);
-  var code = `PWM(Pin(${value_pin}), freq=50).duty(int(5.0 + (((${value_angle}) / 180.0) * 5.0)))\n`;
+  var code = `PWM(Pin(${value_pin}), freq=50).duty(int(51.15 + (((${value_angle}) / 180.0) * 51.15)))\n`;
   return code;
 };
