@@ -25,7 +25,7 @@ Blockly.JavaScript['servo'] = function (block) {
       `  if (!${obj_name}.attached()) {`,
       `    ${obj_name}.attach(${value_pin});`,
       '  }',
-      '  ${obj_name}.write(angle);',
+      `  ${obj_name}.write(angle);`,
       '}'
     ]);
 
