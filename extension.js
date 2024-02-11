@@ -23,5 +23,9 @@
                 </block>
             `
         }
+    ], 
+    supportArduinoPlatform: true,
+    depends: [ // Arduino library
+        "Servo@1.2.1"
     ]
 });
